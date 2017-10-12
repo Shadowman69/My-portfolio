@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 1400px) {
     nav {
         width: 70%;
@@ -5,6 +6,31 @@
 
     nav ul li {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .services_fluid_container {
+        background-size: 90%, contain;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .services_fluid_container {
+        width: 100%;
+        overflow: hidden;
+        background: url(img/sea.jpg) 142% 0% no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .services_content ul {
+        width: 50%;
     }
 }
 
@@ -52,6 +78,29 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    .services_fluid_container {
+        height: auto;
+    }
+
+    .services_content {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .services_content h2 {
+        margin-top: 30px;
+    }
+
+    .services_content p,
+    .services_content ul {
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     nav {
         height: auto;
@@ -64,6 +113,30 @@
     nav ul li {
         display: block;
         margin: 0 auto;
+    }
+
+    .services_content p {
+        width: 100%;
+    }
+
+    .services_content ul {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .services_item {
+        width: 100%;
+    }
+
+    .services_item img {
+        margin-bottom: 10px;
+    }
+
+    .services_item p {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 40px;
     }
 }
 
@@ -84,5 +157,13 @@
     .header_content p {
         font-size: 15px;
     }
+
+    .services_content p {
+        width: 90%;
+    }
+
+    .services_content ul {
+        width: 80%;
+    }
 }
-    
+

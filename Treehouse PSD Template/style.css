@@ -182,8 +182,13 @@ services p {
     margin-bottom: 80px;
 }
 
+.service_container {
+    width: 100%;
+}
+
 .services_item {
     width: 27.47%;
+    max-height: 330px;
     float: left;
     margin-right: 7.45%;
 }
@@ -215,12 +220,12 @@ services p {
 .services_fluid_container {
     width: 100%;
     overflow: hidden;
-    background: url(img/sea.jpg) 123% 0% no-repeat, url(img/cog.jpg) 0 100% no-repeat;
+    background: url(img/sea.jpg) 142% 0% no-repeat, url(img/cog.jpg) 0 100% no-repeat;
     background-size: 81%, contain;
 }
 
 .services_content {
-    width: 69.38%;
+    width: 67.38%;
     float: right;
     text-align: left;
 }
