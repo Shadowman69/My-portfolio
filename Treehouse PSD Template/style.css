@@ -126,7 +126,8 @@ nav ul li a:hover {
 
 .header_content p,
 .services p,
-.services_item p {
+.services_item p,
+.services_content p {
     font-family: 'Roboto Slab', Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -134,7 +135,8 @@ nav ul li a:hover {
     margin-bottom: 60px;
 }
 
-.header_content button {
+.header_content button,
+.services_content button {
     width: 200px;
     height: 60px;
     -webkit-border-radius: 30px;
@@ -153,7 +155,8 @@ nav ul li a:hover {
     margin-bottom: 120px;
 }
 
-.header_content button:hover {
+.header_content button:hover,
+.services_content button:hover {
     background-color: white;
     color: black;
     text-shadow: -1px 0px #b0b0b0, 1px 0px #b0b0b0;
@@ -211,7 +214,59 @@ services p {
 
 .services_fluid_container {
     width: 100%;
-    height: 530px;
-    background: url('img/cog.jpg') 100% 100% no-repeat, url('img/sea.jpg') 100% 100% no-repeat;
-    background-size: cover, cover;
+    overflow: hidden;
+    background: url(img/sea.jpg) 123% 0% no-repeat, url(img/cog.jpg) 0 100% no-repeat;
+    background-size: 81%, contain;
+}
+
+.services_content {
+    width: 69.38%;
+    float: right;
+    text-align: left;
+}
+
+.services_content h2 {
+    color: #ffffff;
+    text-shadow: -1px 0 #706f70, 1px 0 #706f70;
+    margin-bottom: 45px;
+}
+
+.services_content h2 span {
+    color: #7cc576;
+    text-shadow: none;
+}
+
+.services_content p {
+    width: 50.5%;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.services_content ul {
+    width: 33%;
+    color: #cccccc;
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.services_content ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.services_content ul li::before {
+    content: '';
+    background: url('img/checkmark.png');
+    display: inline-block;
+    width: 33px;
+    height: 32px;
+    margin-right: 25px;
+}
+
+.services_content button {
+    width: 170px;
+    margin-bottom: 100px;
 }
