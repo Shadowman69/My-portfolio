@@ -124,7 +124,9 @@ nav ul li a:hover {
     color: #ffffff;
 }
 
-.header_content p {
+.header_content p,
+.services p,
+.services_item p {
     font-family: 'Roboto Slab', Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -159,3 +161,57 @@ nav ul li a:hover {
 
 /* Section Professional Services */
 
+.services {
+    text-align: center;
+}
+
+.section_title {
+    margin-top: 100px;
+    margin-bottom: 23px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+services p {
+    margin-bottom: 80px;
+}
+
+.services_item {
+    width: 27.47%;
+    float: left;
+    margin-right: 7.45%;
+}
+
+.services_item:last-child {
+    margin-right: 0;
+}
+
+.services_item img {
+    margin-bottom: 40px;
+}
+
+.services_item h3 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-shadow: -1px -1px #767676;
+}
+
+.services_item p {
+    margin-bottom: 100px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.services_fluid_container {
+    width: 100%;
+    height: 530px;
+    background: url('img/cog.jpg') 100% 100% no-repeat, url('img/sea.jpg') 100% 100% no-repeat;
+    background-size: cover, cover;
+}
