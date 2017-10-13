@@ -127,7 +127,8 @@ nav ul li a:hover {
 .header_content p,
 .services p,
 .services_item p,
-.services_content p {
+.services_content p,
+.project_fluid_container p {
     font-family: 'Roboto Slab', Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -201,7 +202,8 @@ services p {
     margin-bottom: 40px;
 }
 
-.services_item h3 {
+.services_item h3,
+.project h3 {
     margin-bottom: 20px;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 18px;
@@ -274,4 +276,72 @@ services p {
 .services_content button {
     width: 170px;
     margin-bottom: 100px;
+}
+
+/* Section Latest Project */
+.project_fluid_container {
+    background: url('img/smartphone.jpg') 116% 116% no-repeat;
+    text-align: center;
+}
+
+.project .container {
+    text-align: left;
+}
+
+.project .container p {
+    width: 50%;
+    color: #cccccc;
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.project_item {
+    width: 60%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.project_item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.container .project_item .project_item_title {
+    width: 100%;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 0;
+}
+
+.container .project_item .project_item_content {
+    width: 100%;
+    color: #cccccc;
+    font-family: 'Roboto Slab', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.container p.details,
+.container p.details::after {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #7cc576;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.container p.details::after {
+    content: ' \2192';
+    font-size: 24px;
 }

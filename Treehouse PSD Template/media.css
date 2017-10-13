@@ -16,14 +16,17 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .container {
-        width: 100%;
+    .container,
+    .project .container {
+        width: 95%;
+        margin-left: 10px;
     }
+
 }
 
 @media screen and (max-width: 1150px) {
     .services_fluid_container {
-        width: 100%;
+        width: 95%;
         overflow: hidden;
         background: url(img/sea.jpg) 142% 0% no-repeat;
         background-size: 100% 100%;
@@ -32,11 +35,19 @@
     .services_content ul {
         width: 50%;
     }
+
+    .project_fluid_container h2 {
+        margin-top: 30px;
+    }
+
+    .container p.details {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 1050px) {
     .container {
-        width: 100%;
+        width: 95%;
         overflow: visible;
     }
 
@@ -84,7 +95,7 @@
     }
 
     .services_content {
-        width: 100%;
+        width: 95%;
         float: none;
         text-align: center;
     }
@@ -98,6 +109,10 @@
         width: 40%;
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+
+    .project_fluid_container {
+        background: none;
     }
 }
 
@@ -126,7 +141,7 @@
 
 @media screen and (max-width: 750px) {
     .services_item {
-        width: 100%;
+        width: 95%;
     }
 
     .services_item img {
@@ -138,6 +153,19 @@
         margin: 0 auto;
         margin-bottom: 40px;
     }
+
+    .project .container p,
+    .project_item,
+    .project_item .project_item_content {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .project .container p,
+    .project_item {
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -146,7 +174,7 @@
     }
 
     .header_content {
-        width: 100%;
+        width: 95%;
         margin-top: 80px;
     }
 
