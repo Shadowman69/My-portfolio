@@ -107,7 +107,8 @@
         text-align: center;
     }
 
-    .services_content h2 {
+    .services_content h2,
+    .section_title {
         margin-top: 30px;
     }
 
@@ -177,6 +178,20 @@
     .project .container p,
     .project_item {
         width: 95%;
+    }
+
+    div.client_comment_1 img,
+    div.client_comment_2 img {
+        float: none;
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .comment_1,
+    .comment_2 {
+        float: none;
+        width: 100%;
     }
 }
 

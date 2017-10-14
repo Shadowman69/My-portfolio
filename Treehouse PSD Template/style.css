@@ -129,7 +129,8 @@ nav ul li a:hover {
 .services_item p,
 .services_content p,
 .project_fluid_container p,
-.culture .container p {
+.culture .container p,
+.clients .container p {
     font-family: 'Roboto Slab', Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -404,3 +405,70 @@ services p {
 }
 
 /* Section Our Awesome Clients */
+.clients {
+    text-align: center;
+}
+
+.clients_comments {
+    width: 100%;
+    text-align: center;
+}
+
+.client_comment_1,
+.client_comment_2 {
+    overflow: hidden;
+}
+
+.client_comment_1 img {
+    float: left;
+    -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+            border-radius: 50%;
+    width: 23.4%;
+    height: 220px;
+    margin-right: 30px;
+}
+
+.client_comment_2 img {
+    float: right;
+    -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+            border-radius: 50%;
+    width: 23.4%;
+    height: 220px;
+    margin-left: 30px;
+}
+
+.comment_1 {
+    float: right;
+    width: 70%;
+    text-align: center;
+    background: url(img/for_comment_1.png) 0 center no-repeat;
+    background-size: 100% 85%;
+}
+
+.comment_2 {
+    float: left;
+    width: 70%;
+    text-align: center;
+    background: url(img/for_comment_2.png) 0 center no-repeat;
+    background-size: 100% 85%;
+}
+
+.container .clients_comments .comment {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.container .clients_comments .comment_author {
+    font-size: 18px;
+    color: #7cc576;
+    text-shadow: -1px 0 0 #c5e2c3;
+}
