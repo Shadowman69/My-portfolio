@@ -1,4 +1,11 @@
 
+@media screen and (max-width: 1500px) {
+    .values_item::after {
+        content:"";
+        background: none;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     nav {
         width: 70%;
@@ -158,6 +165,11 @@
     .project_item,
     .project_item .project_item_content {
         margin-right: 10px;
+    }
+
+    .values_item {
+        width: 100%;
+        float: none;
     }
 }
 
