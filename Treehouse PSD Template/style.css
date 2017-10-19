@@ -349,6 +349,11 @@ services p {
     font-size: 24px;
 }
 
+.container p.details:hover,
+.container p.details:hover:after {
+    color: #222222;
+}
+
 /* Section Culture & Values */
 .culture {
     background: #f9f9f9;
@@ -471,4 +476,238 @@ services p {
     font-size: 18px;
     color: #7cc576;
     text-shadow: -1px 0 0 #c5e2c3;
+}
+
+/* Section Ready To Talk */
+.ready_fluid_container {
+    width: 100%;
+    background: #7cc576;
+}
+
+.ready_fluid_container .container {
+    text-align: center;
+    overflow: hidden;
+}
+
+.ready_fluid_container .section_title {
+    color: white;
+    font-size: 39px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.ready_fluid_container button {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 70px;
+    border: 3px solid white;
+    -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+            border-radius: 5px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background: inherit;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.ready_fluid_container button:hover {
+    background: white;
+    color: #7cc576;
+}
+
+.trades_fluid_container {
+    width: 100%;
+    background: white;
+}
+
+.trades_fluid_container .trades {
+    width: 58.75%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.trades_fluid_container .trades img {
+    width: 16%;
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 10%;
+}
+
+.trades_fluid_container .trades img:last-child {
+    margin-right: 0;
+}
+
+/* Footer */
+footer .top_footer {
+    background: #222222;
+    overflow: hidden;
+}
+
+.footer_container {
+    width: 58.75%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer_container_item {
+    width: 31%;
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    color: white;
+    text-align: left;
+}
+
+.footer_container_item:last-child {
+    margin-right: 0;
+}
+
+.footer_container_item h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer_container_item img,
+.footer_container_item .post_item img {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.footer_container_item .post_item:last-child img {
+    margin-right: 30px;
+}
+
+.footer_container_item address,
+.footer_container_item span,
+.footer_container_item span a,
+.footer_container_item .post_item span {
+    display: inline-block;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ececec;
+    cursor: pointer;
+}
+
+.footer_container_item span.telephone {
+    position:absolute;
+    top:54%;
+}
+
+.footer_container_item span.email {
+    position:absolute;
+    bottom: 8%;
+}
+
+.footer_container_item span.news {
+    position: absolute;
+    padding-top: 21px;
+}
+
+.footer_container_item .post_item span.news:hover,
+.footer_container_item span.news:hover {
+    color: #7cc576;
+}
+
+.footer_container_item span.hashtag {
+    display: block;
+    margin-left: 47px;
+    padding-top: 24px;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 900;
+    color: #ececec;
+}
+
+.footer_container_item span.hashtag:hover {
+    color: #7cc576;
+}
+
+.footer_container_item span.time {
+    font-size: 12px;
+    margin-left: 47px;
+    cursor: default;
+}
+
+footer .bottom_footer {
+    background: white;
+}
+
+.bottom_footer .footer_container {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.bottom_footer .copyright {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 12.8%;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    text-shadow: -1px 0 0 #8e8e8e;
+}
+
+.bottom_footer .twitter_icon,
+.bottom_footer .facebook_icon,
+.bottom_footer .pinterest_icon,
+.bottom_footer .google_icon {
+   display: inline-block;
+   width: 41px;
+   height: 41px;
+   margin: 30px 15px 30px 0;
+   cursor: pointer;
+}
+
+.bottom_footer .twitter_icon {
+    background: url('img/twitter-icon.png') 0 0 no-repeat;
+}
+
+.bottom_footer .twitter_icon:hover {
+    background: url('img/twitter-icon-hover.png') 0 0 no-repeat;
+    transition-delay: 5ms;
+}
+
+.bottom_footer .facebook_icon {
+    background: url('img/facebook-icon.png') 0 0 no-repeat;
+}
+
+.bottom_footer .facebook_icon:hover {
+    background: url('img/facebook-icon-hover.png') 0 0 no-repeat;
+    transition-delay: 5ms;
+}
+
+.bottom_footer .pinterest_icon {
+    background: url('img/pinterest-icon.png') 0 0 no-repeat;
+}
+
+.bottom_footer .pinterest_icon:hover {
+    background: url('img/pinterest-icon-hover.png') 0 0 no-repeat;
+    transition-delay: 5ms;
+}
+
+.bottom_footer .google_icon {
+    background: url('img/google-icon.png') 0 0 no-repeat;
+}
+
+.bottom_footer .google_icon:hover {
+    background: url('img/google-icon-hover.png') 0 0 no-repeat;
+    transition-delay: 5ms;
 }

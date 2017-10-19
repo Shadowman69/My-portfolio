@@ -4,6 +4,10 @@
         content:"";
         background: none;
     }
+
+    .footer_container_item {
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -13,6 +17,12 @@
 
     nav ul li {
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .footer_container {
+        width: 90%;
     }
 }
 
@@ -29,6 +39,11 @@
         margin-left: 10px;
     }
 
+    .trades_fluid_container .trades img {
+        width: 40%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
@@ -94,6 +109,10 @@
     .header_content {
         width: 70%;
     }
+
+    .ready_fluid_container .section_title {
+        margin-top: 60px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -145,6 +164,11 @@
     .services_content ul {
         width: 60%;
     }
+
+    .footer_container_item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -174,6 +198,38 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .bottom_footer .footer_container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_container {
+        margin-bottom: 0;
+    }
+
+    .bottom_footer .copyright {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bottom_footer .twitter_icon,
+    .bottom_footer .facebook_icon,
+    .bottom_footer .pinterest_icon,
+    .bottom_footer .google_icon {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer_container_item span.hashtag {
+        padding-top: 45px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .project .container p,
     .project_item {
@@ -192,6 +248,23 @@
     .comment_2 {
         float: none;
         width: 100%;
+    }
+
+    .trades_fluid_container .trades img {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer_container_item {
+        width: 100%;
+        margin-right: 0; 
+    }
+
+    .footer_container_item span.hashtag {
+        padding-top: 10px;
     }
 }
 
