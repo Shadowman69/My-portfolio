@@ -76,7 +76,6 @@ body {
 
 /* Header */
 header {
-
     background: url('../images/header_bg.jpg') no-repeat 0 0;
 }
 
@@ -123,9 +122,11 @@ header {
             transition: all .3s ease-in-out;
 }
 
-.top_header .hamburger_menu:hover {
+.top_header .logo_container .hamburger_menu:hover {
     color: #4bcaff;
 } 
+
+
 
 .top_header .menu {
     display: flex;
@@ -149,17 +150,51 @@ header {
     padding: 10px 18px;
     line-height: 45px;
     cursor: pointer;
-    -webkit-transition: all .3s ease-in-out;
-        -moz-transition: all .3s ease-in-out;
-        -ms-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-            transition: all .3s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
 }
 
 .top_header ul li a:hover,
 .top_header ul li a.active {
     color: #4bcaff;
     border-color: #4bcaff;
+}
+
+.top_header ul li a:hover {
+    outline: none;
+    -webkit-animation: borderColors .4s steps(3) forwards;
+        animation: borderColors .4s steps(3) forwards;
+}
+
+/* Menu items animation */
+@keyframes borderColors {
+    0% {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    33% {
+      border-top-color: #4bcaff;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    66% {
+      border-top-color: #4bcaff;
+      border-right-color: #4bcaff;
+      border-bottom-color: transparent;
+      border-left-color: #4bcaff;
+    }
+    100% {
+      border-top-color: #4bcaff;
+      border-right-color: #4bcaff;
+      border-bottom-color: #4bcaff;
+      border-left-color: #4bcaff;
+    }
 }
 
 .bottom_header {
