@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400,700');
+
+/* My custom reset */
+html, body, h1, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input,
+textarea {
+    outline:  none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* General style classes */ 
+.section_title {
+    font-size: 3.75rem;
+    color: #fff;
+    line-height: 4.1875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    background: #00a651;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9375rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.button:hover {
+    background: #2d8257;
+}
+
+.container {
+    width: 72.5%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.unvisible {
+    visibility: hidden;
+}
+
+/* Header */
+header {
+    background: url('../images/header_background.jpg') 100% 30% no-repeat;
+    background-size: cover;
+    padding: 0 80px;
+    position: relative;
+}
+
+header h1 {
+    width: 25%;
+    margin-top: 228px;
+    margin-bottom: 25px;
+}
+
+header p,
+.offer p,
+.events p,
+.shiraz p {
+    font-size: 0.9375rem;
+    line-height: 1.875rem;
+    color: #fff;
+    width: 33%;
+    margin-bottom: 40px;
+}
+
+header a {
+    margin-bottom: 263px;
+}
+
+/* Navigation */
+nav {
+    height: 0;
+    width: 100%;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 74px;
+    top: -74px;
+    background: #4d545c;
+    opacity: .5;
+
+}
+
+nav ul li {
+    height: 100%;
+    padding: 20px 0;
+}
+
+nav ul li.logo {
+    margin-left: 30px;
+}
+
+nav ul li a {
+font-size: 0.8125rem;
+line-height: 1.875rem;
+color: #fff;
+text-transform: uppercase;
+height: 100%;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+
+nav ul li a:hover:after,
+nav ul li a.active:after {
+    content: '';
+    display: block;
+    height: 4px;
+    background: #00a651;
+    margin-top: 20px;
+}
+
+nav ul li.logo a:hover:after {
+    content:'';
+    height: 0;
+    margin-top: 0;
+}
+
+/* Guide block */
+
+.guide {
+    display: flex;
+    flex-direction: row;
+    background: #252525;
+    padding: 80px 0 45px;
+}
+
+.guide_title {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 42px;
+    text-align: right;
+}
+
+.guide_title p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.875rem;
+    line-height: 3.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    width: 35%;
+}
+
+.guide_title p:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 105px;
+    margin-top: 40px;
+    background: #00a651;
+}
+
+.guide_comment {
+    width: 50%;
+    margin-left: 42px;
+}
+
+.guide_comment p {
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    color: #fff;
+    font-weight: 400;
+    width: 65%;
+    margin-bottom: 45px;
+}
+
+.guide_comment span {
+    font-size: 0.9375rem;
+    color: #fff;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+/* Offer section */
+.offer {
+    background: url('../images/offer_background.jpg') 100% 40% no-repeat;
+    background-size: cover;
+    padding: 150px 80px 125px;
+}
+
+.offer h2.section_title,
+.events h2.section_title,
+.shiraz h2.section_title {
+    font-size: 3.25rem;
+    line-height: 4.1875rem;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+/* Events section */
+.events {
+    background: url('../images/events_background.jpg') 100% 0% no-repeat;
+    background-size: cover;
+    padding: 150px 80px 125px;
+    text-align: right;
+}
+
+.events p {
+    margin-left: auto;
+    /* Другой вариант margin: 0 0 0 auto; */
+}
+
+.transform {
+    background: #252525;
+    padding: 71px 125px;
+    text-align: center;
+}
+
+.transform p.transform_title {
+    font-size: 3rem;
+    line-height: 1.15;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.transform p.transform_title span {
+    color: #00a651;
+}
+
+.transform p {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: #fff;
+}
+
+/* Testemonials section */
+.testemonials {
+    position: relative;
+    padding: 140px 0;
+}
+
+.left-arrow,
+.right-arrow {
+    position: absolute;
+    top: 200px;
+    z-index: 5;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    opacity: 0.5;
+}
+
+.testemonials .testemonials_items {
+    display: flex;
+    flex-direction: row;
+    max-height: 250px;
+}
+
+.testemonial_item {
+    width: 350px;
+    min-width: 320px;
+    height: 250px;
+    background: white;
+    margin-right: 75px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 12px;
+    box-shadow:  10px 10px 10px rgba(229, 229, 229, 0.5), 
+                -10px -10px 10px rgba(229, 229, 229, 0.5);
+}
+
+.testemonial_text {
+    padding: 30px;
+}
+
+.testemonial_text p {
+    font-style: italic;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+}
+
+.testemonial_author {
+    position: relative;
+    background: #00a651;
+    padding: 10px 30px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px
+}
+
+.testemonial_author span {
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.testemonial_author img {
+    position: absolute;
+    top: -40px;
+    right: 30px;
+}
+
+.slick-slide {
+	transition: opacity .3s ease;
+}
+
+.slick-slide,
+.slick-track .slick-active + .slick-active + .slick-active + .slick-active {
+	opacity: 0.5;
+}
+
+.slick-track .slick-active + .slick-active,
+.slick-track .slick-active + .slick-active + .slick-active {
+	opacity: 1;
+}
+
+/* Shiraz section */
+
+.shiraz {
+    background: url('../images/shiraz_background.jpg') 100% 0% no-repeat;
+    background-size: cover;
+    padding: 150px 80px 125px;
+    text-align: right;
+}
+
+.shiraz p {
+    margin-left: auto;
+    /* Другой вариант margin: 0 0 0 auto; */
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer_title {
+    width: 34%;
+    padding: 80px 70px;
+    background: #252525;
+}
+
+.footer_title p {
+    font-size: 1.875rem;
+    line-height: 3.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer_title p:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 105px;
+    margin-top: 40px;
+    background: #00a651;
+}
+
+.contact,
+.follow {
+    width: 33%;
+    padding: 80px 110px;
+    background: #363636;
+}
+
+.contact h3,
+.follow h3 {
+    font-size: 1.625rem;
+    line-height: 2.8125rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact p,
+.follow p {
+    font-size: 1.125rem;
+    line-height: 2.8125rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contact span {
+    font-size: 1.125rem;
+    line-height: 2.8125rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.contact a {
+    font-size: 1.125rem;
+    line-height: 2.8125rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.follow {
+    overflow: hidden;
+}
+
+.follow img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.follow span {
+    display: inline-block;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 400; 
+    margin-bottom: 20px;
+}
+
+.follow p {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+img.meetup {
+    width: 103px;
+    height: 72px;
+    float: left;
+}
+
+img.meetup + p {
+    font-size: 18px;
+    line-height: 30px;
+    -webkit-transform: translateY(7px);
+    -moz-transform: translateY(7px);
+    -ms-transform: translateY(7px);
+    -o-transform: translateY(7px);
+    transform: translateY(7px);
+}

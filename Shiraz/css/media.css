@@ -1,0 +1,252 @@
+@media screen and (max-width: 1450px) {
+    header h1 {
+        width: 40%;
+    }
+
+    .offer h2.section_title,
+    .offer p,
+    .events h2.section_title,
+    .events p,
+    .shiraz p {
+        width: 60%;
+    }
+
+    .transform {
+        padding: 50px 125px;
+    }
+
+    .footer_title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_title p {
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact, 
+    .follow {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 970px) {
+    header,
+    .offer,
+    .events,
+    .shiraz {
+        text-align: center;
+    }
+
+    header h1 {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .offer h2,
+    .events h2,
+    .shiraz h2 {
+        width: 100%
+    }
+
+    header p,
+    .offer p,
+    .events p,
+    .shiraz p {
+        width: 100%;
+    }
+
+    header a {
+        margin-bottom: 200px;
+    }
+
+    nav ul {
+        align-content: space-between;
+        height: 148px;
+        margin-top: -74px;
+    }
+
+    nav ul li.logo {
+        order: -1;
+        width: 100%;
+        height: 48px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    nav ul li {
+        height: 37%;
+        padding: 0;
+    }
+
+    nav ul li a {
+        height: auto;
+    }
+
+    .guide {
+        flex-direction: column;
+    }
+
+    .guide_title,
+    .guide_comment,
+    .guide_title p,
+    .guide_comment p {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .guide_title {
+        text-align: center;
+        position: relative;
+        bottom: -10px;
+        padding: 0 20px;
+    }
+
+    .guide_title p {
+        align-items: center;
+    }
+
+    .guide_comment {
+        text-align: center;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .offer,
+    .events,
+    .shiraz {
+        padding: 50px 20px 25px;
+    }
+
+    .offer h2.section_title,
+    .events h2.section_title,
+    .shiraz h2.section_title {
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+    }
+
+    .transform {
+        padding: 50px 20px;
+    }
+
+    .transform p.transform_title {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .testemonials {
+        padding: 75px 0;
+    }
+
+    .testemonials .testemonials_items {
+        padding: 0 20px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        top: 125px;
+    }
+
+    .contact,
+    .follow {
+        width: 100%;
+        text-align: center;
+    }
+
+    .follow p {
+        width: 100%;
+    }
+
+    .follow img.meetup {
+        margin-left: 150px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .follow img.meetup {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header a {
+        margin-bottom: 250px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-content: stretch;
+        flex-wrap: nowrap;
+        height: auto;
+        margin-top: -123px;
+    }
+
+    nav ul li.logo {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    nav ul li a:hover:after,
+    nav ul li a.active:after {
+        content: '';
+        height: 0px;
+        margin-top: 0;
+    }
+
+    nav ul li a:hover {
+        color: #2d8257;
+    }
+
+    .guide_title p {
+        margin-top: 100px;
+    }
+
+    .offer h2.section_title,
+    .events h2.section_title,
+    .shiraz h2.section_title {
+        width: 100%;
+    }
+
+    .follow img.meetup {
+        display: inline-block;
+        float: none;
+        margin-left: 0;
+    }
+}
+    
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 0 30px;
+    }
+
+    .section_title {
+        font-size: 2.75rem;
+        line-height: 3.1875rem;
+    }
+
+    .footer_title,
+    .contact,
+    .follow {
+        padding: 50px 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        margin-top: 50px;     
+    }
+
+    header a {
+        margin-bottom: 250px;
+    }
+
+    .testemonial_item {
+        width: 320px;
+    }
+}
